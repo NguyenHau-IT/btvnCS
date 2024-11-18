@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1FC400E2-9BF1-4222-B6DF-63F9AE24EB98}</ProjectGuid>
+    <ProjectGuid>{250F3B90-9BC4-4120-B7EF-8639BBE01A93}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SV</RootNamespace>
-    <AssemblyName>SV</AssemblyName>
+    <RootNamespace>Student</RootNamespace>
+    <AssemblyName>Student</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="StudentManagement\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
+    <Compile Include="StudentManagement\SV.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

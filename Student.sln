@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SV", "SV\SV.csproj", "{1FC400E2-9BF1-4222-B6DF-63F9AE24EB98}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement", "Student\StudentManagement.csproj", "{250F3B90-9BC4-4120-B7EF-8639BBE01A93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1FC400E2-9BF1-4222-B6DF-63F9AE24EB98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1FC400E2-9BF1-4222-B6DF-63F9AE24EB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1FC400E2-9BF1-4222-B6DF-63F9AE24EB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1FC400E2-9BF1-4222-B6DF-63F9AE24EB98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{250F3B90-9BC4-4120-B7EF-8639BBE01A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{250F3B90-9BC4-4120-B7EF-8639BBE01A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{250F3B90-9BC4-4120-B7EF-8639BBE01A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{250F3B90-9BC4-4120-B7EF-8639BBE01A93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {623DEA5E-B9B4-451F-AFBF-88CDC2DA8171}
+		SolutionGuid = {5A2EDA6A-822E-4077-83EE-1671A744670E}
 	EndGlobalSection
 EndGlobal
