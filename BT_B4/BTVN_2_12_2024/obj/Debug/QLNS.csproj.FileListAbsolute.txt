@@ -1,0 +1,11 @@
+E:\btvnCS\BT_B4\BTVN_2_12_2024\obj\Debug\QLNS.csproj.AssemblyReference.cache
+E:\btvnCS\BT_B4\BTVN_2_12_2024\obj\Debug\BTVN_2_12_2024.Properties.Resources.resources
+E:\btvnCS\BT_B4\BTVN_2_12_2024\obj\Debug\QLNS.csproj.GenerateResource.cache
+E:\btvnCS\BT_B4\BTVN_2_12_2024\obj\Debug\QLNS.csproj.CoreCompileInputs.cache
+E:\btvnCS\BT_B4\BTVN_2_12_2024\obj\Debug\BTVN_2_12_2024.exe
+E:\btvnCS\BT_B4\BTVN_2_12_2024\obj\Debug\BTVN_2_12_2024.pdb
+E:\btvnCS\BT_B4\BTVN_2_12_2024\obj\Debug\QLNS.Form2.resources
+E:\btvnCS\BT_B4\BTVN_2_12_2024\bin\Debug\BTVN_2_12_2024.exe.config
+E:\btvnCS\BT_B4\BTVN_2_12_2024\bin\Debug\BTVN_2_12_2024.exe
+E:\btvnCS\BT_B4\BTVN_2_12_2024\bin\Debug\BTVN_2_12_2024.pdb
+E:\btvnCS\BT_B4\BTVN_2_12_2024\obj\Debug\QLNS.Form1.resources

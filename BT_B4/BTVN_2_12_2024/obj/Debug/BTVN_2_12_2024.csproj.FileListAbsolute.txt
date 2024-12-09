@@ -1,0 +1,11 @@
+D:\BTVN_SV\btvn\BTVN_2_12_2024\bin\Debug\BTVN_2_12_2024.exe.config
+D:\BTVN_SV\btvn\BTVN_2_12_2024\bin\Debug\BTVN_2_12_2024.exe
+D:\BTVN_SV\btvn\BTVN_2_12_2024\bin\Debug\BTVN_2_12_2024.pdb
+D:\BTVN_SV\btvn\BTVN_2_12_2024\obj\Debug\BTVN_2_12_2024.csproj.AssemblyReference.cache
+D:\BTVN_SV\btvn\BTVN_2_12_2024\obj\Debug\BTVN_2_12_2024.Form1.resources
+D:\BTVN_SV\btvn\BTVN_2_12_2024\obj\Debug\BTVN_2_12_2024.Properties.Resources.resources
+D:\BTVN_SV\btvn\BTVN_2_12_2024\obj\Debug\BTVN_2_12_2024.csproj.GenerateResource.cache
+D:\BTVN_SV\btvn\BTVN_2_12_2024\obj\Debug\BTVN_2_12_2024.csproj.CoreCompileInputs.cache
+D:\BTVN_SV\btvn\BTVN_2_12_2024\obj\Debug\BTVN_2_12_2024.exe
+D:\BTVN_SV\btvn\BTVN_2_12_2024\obj\Debug\BTVN_2_12_2024.pdb
+D:\BTVN_SV\btvn\BTVN_2_12_2024\obj\Debug\BTVN_2_12_2024.Form2.resources
