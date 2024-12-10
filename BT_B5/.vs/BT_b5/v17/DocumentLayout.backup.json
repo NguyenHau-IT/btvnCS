@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\btvnCS\\BT_B5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2EDD88B-E236-47A1-9C72-F115AD4555DB}|LAB-03-02\\BT_B5.csproj|e:\\btvncs\\bt_b5\\lab-03-02\\bt_b5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F2EDD88B-E236-47A1-9C72-F115AD4555DB}|LAB-03-02\\BT_B5.csproj|solutionrelative:lab-03-02\\bt_b5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F2EDD88B-E236-47A1-9C72-F115AD4555DB}|LAB-03-02\\BT_B5.csproj|E:\\btvnCS\\BT_B5\\lab-03-02\\bt_b5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2EDD88B-E236-47A1-9C72-F115AD4555DB}|LAB-03-02\\BT_B5.csproj|solutionrelative:lab-03-02\\bt_b5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2EDD88B-E236-47A1-9C72-F115AD4555DB}|LAB-03-02\\BT_B5.csproj|E:\\btvnCS\\BT_B5\\lab-03-02\\bt_b5.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2EDD88B-E236-47A1-9C72-F115AD4555DB}|LAB-03-02\\BT_B5.csproj|solutionrelative:lab-03-02\\bt_b5.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2EDD88B-E236-47A1-9C72-F115AD4555DB}|LAB-03-02\\BT_B5.csproj|E:\\btvnCS\\BT_B5\\lab-03-02\\bt_b5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2EDD88B-E236-47A1-9C72-F115AD4555DB}|LAB-03-02\\BT_B5.csproj|solutionrelative:lab-03-02\\bt_b5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2EDD88B-E236-47A1-9C72-F115AD4555DB}|LAB-03-02\\BT_B5.csproj|e:\\btvncs\\bt_b5\\lab-03-02\\bt_b5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F2EDD88B-E236-47A1-9C72-F115AD4555DB}|LAB-03-02\\BT_B5.csproj|solutionrelative:lab-03-02\\bt_b5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2EDD88B-E236-47A1-9C72-F115AD4555DB}|LAB-03-02\\BT_B5.csproj|E:\\btvnCS\\BT_B5\\lab-03-02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,19 +43,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BT_b5.cs",
-              "DocumentMoniker": "E:\\btvnCS\\BT_B5\\LAB-03-02\\BT_b5.cs",
-              "RelativeDocumentMoniker": "LAB-03-02\\BT_b5.cs",
-              "ToolTip": "E:\\btvnCS\\BT_B5\\LAB-03-02\\BT_b5.cs",
-              "RelativeToolTip": "LAB-03-02\\BT_b5.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T11:17:05.247Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -77,7 +64,7 @@
               "RelativeDocumentMoniker": "LAB-03-02\\BT_b5.Designer.cs",
               "ToolTip": "E:\\btvnCS\\BT_B5\\LAB-03-02\\BT_b5.Designer.cs",
               "RelativeToolTip": "LAB-03-02\\BT_b5.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAawH0AAABuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-09T11:02:47.028Z",
               "EditorCaption": ""
@@ -85,11 +72,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BT_b5.cs",
+              "DocumentMoniker": "E:\\btvnCS\\BT_B5\\LAB-03-02\\BT_b5.cs",
+              "RelativeDocumentMoniker": "LAB-03-02\\BT_b5.cs",
+              "ToolTip": "E:\\btvnCS\\BT_B5\\LAB-03-02\\BT_b5.cs*",
+              "RelativeToolTip": "LAB-03-02\\BT_b5.cs*",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAQwP0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T11:17:05.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BT_b5.cs [Design]",
               "DocumentMoniker": "E:\\btvnCS\\BT_B5\\LAB-03-02\\BT_b5.cs",
               "RelativeDocumentMoniker": "LAB-03-02\\BT_b5.cs",
-              "ToolTip": "E:\\btvnCS\\BT_B5\\LAB-03-02\\BT_b5.cs [Design]",
-              "RelativeToolTip": "LAB-03-02\\BT_b5.cs [Design]",
+              "ToolTip": "E:\\btvnCS\\BT_B5\\LAB-03-02\\BT_b5.cs [Design]*",
+              "RelativeToolTip": "LAB-03-02\\BT_b5.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-09T10:58:00.575Z",
               "EditorCaption": " [Design]"

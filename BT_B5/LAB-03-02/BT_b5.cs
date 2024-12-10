@@ -248,5 +248,20 @@ namespace BT_b5
                 }
             }
         }
+
+        private void màuChữuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Khởi tạo hộp thoại chọn màu
+            using (ColorDialog colorDialog = new ColorDialog())
+            {
+                // Hiển thị hộp thoại màu
+                if (colorDialog.ShowDialog() == DialogResult.OK)
+                {
+                    // Áp dụng màu được chọn (ví dụ: thay đổi màu chữ của một Label)
+                    txt_type.ForeColor = colorDialog.Color;
+                }
+            }
+        }
+
     }
 }
