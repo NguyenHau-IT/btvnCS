@@ -1,12 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Drawing.Text;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BT_b5
@@ -106,7 +101,6 @@ namespace BT_b5
             {
                 string selectedFileName = open.FileName;
 
-                // Xác định kiểu tải tệp dựa trên phần mở rộng
                 if (selectedFileName.EndsWith(".txt"))
                 {
                     txt_type.LoadFile(selectedFileName, RichTextBoxStreamType.PlainText);
@@ -172,8 +166,8 @@ namespace BT_b5
             if (txt_type.SelectionFont != null)
             {
                 FontStyle newStyle = txt_type.SelectionFont.Bold
-                    ? txt_type.SelectionFont.Style & ~FontStyle.Bold // Bỏ Bold
-                    : txt_type.SelectionFont.Style | FontStyle.Bold; // Thêm Bold
+                    ? txt_type.SelectionFont.Style & ~FontStyle.Bold
+                    : txt_type.SelectionFont.Style | FontStyle.Bold;
 
                 txt_type.SelectionFont = new Font(txt_type.SelectionFont, newStyle);
             }
@@ -183,8 +177,8 @@ namespace BT_b5
             if (txt_type.SelectionFont != null)
             {
                 FontStyle newStyle = txt_type.SelectionFont.Italic
-                    ? txt_type.SelectionFont.Style & ~FontStyle.Italic // Bỏ Italic
-                    : txt_type.SelectionFont.Style | FontStyle.Italic; // Thêm Italic
+                    ? txt_type.SelectionFont.Style & ~FontStyle.Italic
+                    : txt_type.SelectionFont.Style | FontStyle.Italic;
 
                 txt_type.SelectionFont = new Font(txt_type.SelectionFont, newStyle);
             }
@@ -194,8 +188,8 @@ namespace BT_b5
             if (txt_type.SelectionFont != null)
             {
                 FontStyle newStyle = txt_type.SelectionFont.Underline
-                    ? txt_type.SelectionFont.Style & ~FontStyle.Underline // Bỏ Underline
-                    : txt_type.SelectionFont.Style | FontStyle.Underline; // Thêm Underline
+                    ? txt_type.SelectionFont.Style & ~FontStyle.Underline
+                    : txt_type.SelectionFont.Style | FontStyle.Underline;
 
                 txt_type.SelectionFont = new Font(txt_type.SelectionFont, newStyle);
             }
@@ -210,15 +204,12 @@ namespace BT_b5
         {
             string text = txt_type.Text;
 
-            // Tính số ký tự
             int charCount = text.Length;
 
-            // Tính số từ (chia theo khoảng trắng)
             int wordCount = string.IsNullOrWhiteSpace(text)
                             ? 0
                             : text.Split(new char[] { ' ', '\n', '\t' }, StringSplitOptions.RemoveEmptyEntries).Length;
 
-            // Hiển thị trên thanh trạng thái
             lblCharCount.Text = $"Ký tự: {charCount}";
             lblWordCount.Text = $"Từ: {wordCount}";
         }
@@ -251,13 +242,10 @@ namespace BT_b5
 
         private void màuChữuToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            // Khởi tạo hộp thoại chọn màu
             using (ColorDialog colorDialog = new ColorDialog())
             {
-                // Hiển thị hộp thoại màu
                 if (colorDialog.ShowDialog() == DialogResult.OK)
                 {
-                    // Áp dụng màu được chọn (ví dụ: thay đổi màu chữ của một Label)
                     txt_type.ForeColor = colorDialog.Color;
                 }
             }
