@@ -46,28 +46,31 @@
             // 
             // dgv_1
             // 
-            this.dgv_1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgv_1.ColumnHeadersHeight = 50;
+            this.dgv_1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dgv_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.dgv_1.Location = new System.Drawing.Point(12, 12);
             this.dgv_1.Name = "dgv_1";
             this.dgv_1.RowHeadersWidth = 51;
             this.dgv_1.RowTemplate.Height = 24;
-            this.dgv_1.Size = new System.Drawing.Size(761, 477);
+            this.dgv_1.Size = new System.Drawing.Size(1047, 477);
             this.dgv_1.TabIndex = 0;
             this.dgv_1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_1_CellClick);
             // 
             // txtStudentId
             // 
             this.txtStudentId.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtStudentId.Location = new System.Drawing.Point(779, 44);
+            this.txtStudentId.Location = new System.Drawing.Point(1064, 44);
             this.txtStudentId.Name = "txtStudentId";
-            this.txtStudentId.Size = new System.Drawing.Size(272, 30);
+            this.txtStudentId.Size = new System.Drawing.Size(416, 30);
             this.txtStudentId.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label1.Location = new System.Drawing.Point(780, 12);
+            this.label1.Location = new System.Drawing.Point(1065, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(80, 29);
             this.label1.TabIndex = 2;
@@ -77,7 +80,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label2.Location = new System.Drawing.Point(780, 77);
+            this.label2.Location = new System.Drawing.Point(1065, 77);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(123, 29);
             this.label2.TabIndex = 4;
@@ -86,16 +89,16 @@
             // txtFullName
             // 
             this.txtFullName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtFullName.Location = new System.Drawing.Point(779, 109);
+            this.txtFullName.Location = new System.Drawing.Point(1064, 109);
             this.txtFullName.Name = "txtFullName";
-            this.txtFullName.Size = new System.Drawing.Size(272, 30);
+            this.txtFullName.Size = new System.Drawing.Size(416, 30);
             this.txtFullName.TabIndex = 3;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label3.Location = new System.Drawing.Point(780, 142);
+            this.label3.Location = new System.Drawing.Point(1065, 142);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(108, 29);
             this.label3.TabIndex = 6;
@@ -104,16 +107,16 @@
             // txtAverageScore
             // 
             this.txtAverageScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtAverageScore.Location = new System.Drawing.Point(779, 174);
+            this.txtAverageScore.Location = new System.Drawing.Point(1064, 174);
             this.txtAverageScore.Name = "txtAverageScore";
-            this.txtAverageScore.Size = new System.Drawing.Size(272, 30);
+            this.txtAverageScore.Size = new System.Drawing.Size(416, 30);
             this.txtAverageScore.TabIndex = 5;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label4.Location = new System.Drawing.Point(780, 207);
+            this.label4.Location = new System.Drawing.Point(1065, 207);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(69, 29);
             this.label4.TabIndex = 8;
@@ -123,15 +126,15 @@
             // 
             this.cmbFacultyId.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.cmbFacultyId.FormattingEnabled = true;
-            this.cmbFacultyId.Location = new System.Drawing.Point(785, 240);
+            this.cmbFacultyId.Location = new System.Drawing.Point(1064, 241);
             this.cmbFacultyId.Name = "cmbFacultyId";
-            this.cmbFacultyId.Size = new System.Drawing.Size(266, 33);
+            this.cmbFacultyId.Size = new System.Drawing.Size(416, 33);
             this.cmbFacultyId.TabIndex = 9;
             // 
             // btnAdd
             // 
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnAdd.Location = new System.Drawing.Point(785, 280);
+            this.btnAdd.Location = new System.Drawing.Point(1064, 295);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(118, 41);
             this.btnAdd.TabIndex = 10;
@@ -142,7 +145,7 @@
             // btnDelete
             // 
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnDelete.Location = new System.Drawing.Point(933, 280);
+            this.btnDelete.Location = new System.Drawing.Point(1214, 295);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(118, 41);
             this.btnDelete.TabIndex = 11;
@@ -153,7 +156,7 @@
             // btn_Close
             // 
             this.btn_Close.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btn_Close.Location = new System.Drawing.Point(933, 355);
+            this.btn_Close.Location = new System.Drawing.Point(12, 509);
             this.btn_Close.Name = "btn_Close";
             this.btn_Close.Size = new System.Drawing.Size(118, 41);
             this.btn_Close.TabIndex = 15;
@@ -164,7 +167,7 @@
             // btnEdit
             // 
             this.btnEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnEdit.Location = new System.Drawing.Point(785, 355);
+            this.btnEdit.Location = new System.Drawing.Point(1362, 295);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(118, 41);
             this.btnEdit.TabIndex = 14;
@@ -176,7 +179,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1178, 511);
+            this.ClientSize = new System.Drawing.Size(1492, 565);
             this.Controls.Add(this.btn_Close);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnDelete);

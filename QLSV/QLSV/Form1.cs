@@ -33,8 +33,12 @@ namespace QLSV
                 dgv_1.DataSource = listStu;
 
                 // Đảm bảo các cột trong DataGridView hiển thị đúng
+                dgv_1.Columns["STUDENTID"].HeaderText = "MSSV";
+                dgv_1.Columns["FULLNAME"].HeaderText = "Họ và Tên";
+                dgv_1.Columns["AVERAGESCORE"].HeaderText = "Điểm Trung Bình";
                 dgv_1.Columns["FACULTYID"].HeaderText = "Faculty ID";
-                dgv_1.Columns["FacultyName"].HeaderText = "Faculty Name";
+                dgv_1.Columns["FACULTYID"].Visible = false;
+                dgv_1.Columns["FacultyName"].HeaderText = "Khoa";
             }
         }
 
