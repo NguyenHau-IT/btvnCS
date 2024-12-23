@@ -14,7 +14,6 @@ namespace QLSV
             InitializeComponent();
         }
 
-        // Hàm tải danh sách sinh viên từ database
         private void LoadStudentData()
         {
             using (var context = new Model1())
@@ -54,21 +53,21 @@ namespace QLSV
                     STUDENTID = txtStudentId.Text.Trim(),
                     FULLNAME = txtFullName.Text.Trim(),
                     AVERAGESCORE = float.Parse(txtAverageScore.Text.Trim()),
-                    FACULTYID = cmbFacultyId.SelectedValue.ToString() // Lấy ID khoa từ ComboBox
+                    FACULTYID = cmbFacultyId.SelectedValue.ToString()
                 };
 
                 if (!context.STUDENTs.Any(s => s.STUDENTID == newStudent.STUDENTID))
                 {
                     context.STUDENTs.Add(newStudent);
                     context.SaveChanges();
-                    MessageBox.Show("Thêm sinh viên thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Thêm khoa thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
                 {
-                    MessageBox.Show("Student ID đã tồn tại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Mã khoa đã tồn tại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
-            LoadStudentData(); // Cập nhật DataGridView
+            LoadStudentData();
         }
 
         private void EditStudent()
@@ -188,7 +187,47 @@ namespace QLSV
             }
         }
 
+        private void Faculty_Click(object sender, EventArgs e)
+        {
+            Faculty faculty = new Faculty();
+            faculty.Show();
+        }
 
-        // Thêm sự kiện nút thêm sinh viên (nếu cần)
+        private void Find_Click(object sender, EventArgs e)
+        {
+            Find find = new Find();
+            find.Show();
+        }
+
+        private void btnFaculty_Click(object sender, EventArgs e)
+        {
+            Faculty faculty = new Faculty();
+            faculty.Show();
+        }
+
+        private void btnFind_Click(object sender, EventArgs e)
+        {
+            Find find = new Find();
+            find.Show();
+        }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            // Kiểm tra nếu phím F2 được nhấn
+            if (e.KeyCode == Keys.F2)
+            {
+                Faculty faculty = new Faculty();
+                faculty.Show();
+            }
+
+            // Kiểm tra nếu Ctrl + F được nhấn
+            if (e.Control && e.KeyCode == Keys.F)
+            {
+                Find find = new Find();
+                find.Show();
+            }
+        }
+
+
     }
 }

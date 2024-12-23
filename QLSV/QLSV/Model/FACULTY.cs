@@ -22,6 +22,8 @@ namespace QLSV.Model
         [StringLength(20)]
         public string FACULTYNAME { get; set; }
 
+        public int? TOTALPROFESSER { get; set; }
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<STUDENT> STUDENTs { get; set; }
     }

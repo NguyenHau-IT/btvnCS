@@ -28,3 +28,5 @@ E:\btvnCS\QLSV\QLSV\obj\Debug\QLSV.csproj.CoreCompileInputs.cache
 E:\btvnCS\QLSV\QLSV\obj\Debug\QLSV.csproj.Up2Date
 E:\btvnCS\QLSV\QLSV\obj\Debug\QLSV.exe
 E:\btvnCS\QLSV\QLSV\obj\Debug\QLSV.pdb
+E:\btvnCS\QLSV\QLSV\obj\Debug\QLSV.Find.resources
+E:\btvnCS\QLSV\QLSV\obj\Debug\QLSV.Faculty.resources
